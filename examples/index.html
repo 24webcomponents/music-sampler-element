@@ -2,14 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>custom-element demo</title>
+    <title>music-sampler demo</title>
   </head>
   <body>
-    <custom-element></custom-element>
+    <music-sampler>
+      <audio src="/samples/clap.mp3"></audio>
+      <audio src="/samples/claves.mp3"></audio>
+      <audio src="/samples/kick.mp3"></audio>
+      <audio src="/samples/snare2.mp3"></audio>
+      <audio src="/samples/snare3.mp3"></audio>
+      <audio src="/samples/snare4.mp3"></audio>
+      <audio src="/samples/triangle.mp3"></audio>
+    </music-sampler>
 
     <script type="module">
       // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
-      import '../src/custom-element.ts'
+      import '../src/music-sampler-element.ts'
     </script>
   </body>
 </html>
