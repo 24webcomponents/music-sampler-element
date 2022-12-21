@@ -2,6 +2,8 @@
 
 Boilerplate for creating a custom element.
 
+The music samples for this element came from the Sampulator Shop (http://sampulator.com/shop) "Percussion Pack". The MIT license DOES NOT APPLY to these files, please see http://sampulator.com for more.
+
 ## Installation
 Available on [npm](https://www.npmjs.com/) as [**@github/custom-element-element**](https://www.npmjs.com/package/@github/custom-element-element).
 ```
